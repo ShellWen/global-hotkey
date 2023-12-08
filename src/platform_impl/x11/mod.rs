@@ -124,7 +124,7 @@ fn register_hotkey(
                     keycode as _,
                     modifiers | m,
                     root,
-                    0,
+                    1,
                     xlib::GrabModeAsync,
                     xlib::GrabModeAsync,
                 )
